@@ -15,20 +15,20 @@ h2,p{
 }
 #small{
     border: 3px solid red;
-    width: 30%;
+    width: 33%;
     text-align: center;
     margin: 10px;
     
 }
 #medium{
     border: 3px solid greenyellow;
-    width: 30%;
+    width: 33%;
     text-align: center;
     margin: 10px;
 }
 #large{
     border: 3px solid black;
-    width: 30%;
+    width: 33%;
     text-align: center;
     margin: 10px;
 }
@@ -72,10 +72,17 @@ h2,p{
         width: 90%;
         padding: 10px;
     }
-    
+    /*-- met visibility (zelf te kizen )
+    #large{
+        visibility: hidden;
+    }
+    #medium{
+        visibility: hidden;
+    }
 
-  
-    /*
+    --*/
+
+    /*--met display
     #large{
         display: none;
     }
@@ -109,7 +116,14 @@ h2,p{
         flex-grow: 3;
     }
     
-    
+    /*--
+    #small{
+        visibility: hidden;
+    }
+    #large{
+        visibility: hidden;
+    }
+    --*/
    
     
     /*
