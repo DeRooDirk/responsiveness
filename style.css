@@ -1,77 +1,82 @@
 /* -- Small reset -- */
 
-*{
-    padding : 0;
-    margin : 0;
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: rgb(81, 81, 230);
-        
+
 }
-h2,p{
+
+h2,
+p {
     margin: 10px;
 }
-#small{
+
+#small {
     border: 3px solid red;
     width: 33%;
     text-align: center;
     margin: 10px;
-    
+
 }
-#medium{
+
+#medium {
     border: 3px solid greenyellow;
     width: 33%;
     text-align: center;
     margin: 10px;
 }
-#large{
+
+#large {
     border: 3px solid black;
     width: 33%;
     text-align: center;
     margin: 10px;
 }
 
-
-
-.flexbox{
+.flexbox {
     display: flex;
     border: 5px solid white;
     width: 80%;
     margin: 20px auto;
     padding: 10px;
-    justify-content: space-between;  
-    
+    justify-content: space-between;
+
 }
-
-
-
-
-
 
 /*---- Media Querie's */
 
 @media only screen and (max-width: 480px) {
 
     body {
-      background-color: rgb(194, 108, 108);
-      display: block;
+        background-color: rgb(194, 108, 108);
+        display: block;
     }
-    .flexbox{
+
+    .flexbox {
         flex-direction: column;
     }
-    h2{
+
+    h2 {
         font-size: 0.8rem;
         margin: 20px;
     }
-    p{
+
+    p {
         font-size: 0.8rem;
     }
-    #small,#large,#medium{
+
+    #small,
+    #large,
+    #medium {
         width: 90%;
         padding: 10px;
     }
+
     /*-- met visibility (zelf te kizen )
     #large{
         visibility: hidden;
@@ -89,33 +94,39 @@ h2,p{
     #medium{
         display: none;
     } */
-  }
+}
 
 
-@media screen and (min-device-width: 480px) and (max-device-width:1024px) { 
+@media screen and (min-device-width: 480px) and (max-device-width:1024px) {
+
     /*-- STYLES HERE-- */
-    body{
-        background-color: rgb(146, 218, 75);       
+    body {
+        background-color: rgb(146, 218, 75);
     }
-    h2{
+
+    h2 {
         font-size: 1rem;
         margin: 10px;
     }
-    p{
+
+    p {
         font-size: 0.8rem;
         margin: 5px;
     }
-    .flexbox{
+
+    .flexbox {
         flex-wrap: wrap;
-        
+
     }
-    #small{
+
+    #small {
         flex-grow: 2;
     }
-    #large{
+
+    #large {
         flex-grow: 3;
     }
-    
+
     /*--
     #small{
         visibility: hidden;
@@ -124,8 +135,8 @@ h2,p{
         visibility: hidden;
     }
     --*/
-   
-    
+
+
     /*
     #small{
         display: none;
@@ -134,10 +145,11 @@ h2,p{
         display: none;
     }
     */
-   
+
 }
+
 @media screen and (min-width:1024px) {
-   
+
     /*
     #small{
         display: none;
@@ -146,6 +158,5 @@ h2,p{
         display: none;
     } 
     */
-    
-}
 
+}
