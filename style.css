@@ -1,0 +1,58 @@
+/* -- Small reset -- */
+
+*{
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(81, 81, 230);
+}
+
+
+
+
+
+
+
+
+
+
+/*---- Media Querie's -- */
+
+@media only screen and (max-width: 480px) {
+
+    body {
+      background-color: rgb(194, 108, 108);
+    }
+    #large{
+        display: none;
+    }
+    #medium{
+        display: none;
+    }
+  }
+
+
+@media screen and (min-device-width: 480px) and (max-device-width:1024px) { 
+    /*-- STYLES HERE-- */
+    body{
+        background-color: rgb(146, 218, 75);       
+    }
+    #small{
+        display: none;
+    }
+    #large{
+        display: none;
+    }
+   
+}
+@media screen and (min-width:1024px) {
+    #small{
+        display: none;
+    }
+    #medium{
+        display: none;
+    }
+}
