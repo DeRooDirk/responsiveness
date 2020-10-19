@@ -31,7 +31,7 @@ p {
     margin: 10px;
 }
 .flexbox {
-    display: flex;
+   display: flex;
     border: 5px solid white;
     width: 80%;
     margin: 20px auto;
@@ -58,7 +58,7 @@ p {
     #small,
     #large,
     #medium {
-        width: 90%;
+        width: 90%;x
         
     }
 
